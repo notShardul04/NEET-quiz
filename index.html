@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NEET quiz</title>
+</head>
+<body>
+    <div class="containerNew">
+        <header>
+            <div class="timer">
+                <p>Time: <span id="timer">90</span></p>
+            </div>
+        </header>
+        <main class="quiz">
+            <div id="quiz-start">
+                <div class="landing" id="start-screen">
+                    <h1 id="top">NEET QUIZ APP</h1>
+                    <p>How badly do you want to crack NEET?<br>Your dream is not hard to achieve!<br>The day you wear the white coat is not far behind.<br>Try to answer the following NEET questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                    <button id="start">Start Quiz</button>
+                    <p class="quote">“Healing is a matter of time, but it is sometimes <span style="margin-right: 180px ;"> also a matter of opportunity”</span><br>
+                        <center><span class="author">-Hippocrates</span></center></p>
+                </div>
+            </div>
+            <div class="hide" id="questions">
+                <h2 id="question-words"></h2>
+                <div class="options" id="options"></div>
+            </div>
+            <div class="hide" id="quiz-end">
+                <h2>All Done!</h2>
+                <p>Your final score is: <span id="score-final"></span></p>
+                <p>Please enter your name: <input type="text" id="name" max="3"> <button id="submit-score">Submit</button></p>
+                <div class="next" id="next"><a href="highscore.html">next</a></div>
+                
+            </div>
+            <div id="feedback" class="feedback hide"></div>
+            
+            <p id="copy">&copy; All rights reserved &middot; NEET Quiz App</p>
+           
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+       
+    </footer>
+</body>
+</html>

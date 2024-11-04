@@ -1,0 +1,145 @@
+ /* Style.css */
+
+ * {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: white;
+}
+
+.quiz,
+.scores {
+    margin: 100px auto 0 auto;
+    max-width: 400px;
+}
+
+#top {
+    color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    
+}
+
+.containerNew {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(medical-uniform-essentials-stethoscope-clipboard-up-close-view_795881-11066.avif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 580px;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+p {
+    margin: 15px 15px;
+}
+
+.landing {
+    text-align: center;
+}
+
+.scoresHeader {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+button {
+    display:inline-flexbox;
+    margin: 10px;
+    cursor: pointer;
+    color:cyan;
+    background-color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 0;
+    padding: 25px;
+}
+
+button:hover {
+    background-color: #2a8d12;
+}
+
+.options button {
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 100%;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+.feedback {
+    font-style: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 15px;
+    color: black;
+    border-top: 2px solid #4B0082;
+}
+
+ol {
+    padding-left: 15px;
+    max-height: 600px;
+    overflow: auto;
+
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+    background-color:olive;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .containerNew {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .containerNew {
+        width: 90%;
+    }
+
+    .quiz,
+    .scores {
+        max-width: 90%;
+    }
+}
+.next a{
+    background-color: navy;
+    color:cyan;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 27px ;
+}
+#copy{
+    text-align: center;
+    margin-top: 90px;
+    
+
+}
+.quote{
+    margin-bottom: 0;
+}
+.author{
+    text-align: center;
+    margin-left:60px;
+}
